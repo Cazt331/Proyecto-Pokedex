@@ -4,7 +4,7 @@ Bienvenido a mi proyecto final de desarrollo web. Esta es una página web estát
 
 Puedes visualizar la página web publicada en GitHub Pages haciendo clic en el siguiente enlace:
 
-👉 **https://github.com/Cazt331/Proyecto-Pokedex/settings/pages**
+👉 **https://cazt331.github.io/Proyecto-Pokedex/**
 
 ## 🎯 Objetivo del Proyecto
 
