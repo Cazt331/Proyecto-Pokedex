@@ -3,26 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mi Pokédex - Proyecto Final</title>
+    <title>Gran Pokédex - Proyecto Final</title>
     <meta
       name="description"
-      content="Proyecto básico de HTML mostrando una lista de Pokémon"
+      content="Colección de 12 Pokémon con información detallada"
     />
   </head>
-  <body>
+  <body id="inicio">
     <header>
-      <h1>Mi Pokédex Web</h1>
-      <p>
-        Bienvenido a mi enciclopedia Pokémon. Aquí encontrarás información sobre
-        los iniciales de Kanto.
-      </p>
+      <h1>Mi Gran Pokédex Web</h1>
+      <p>Catálogo ampliado con evoluciones y Pokémon populares.</p>
 
       <nav>
-        <h3>Selecciona un Pokémon:</h3>
+        <h3>Navegación Rápida:</h3>
         <ul>
-          <li><a href="#bulbasaur">Ver a Bulbasaur</a></li>
-          <li><a href="#charmander">Ver a Charmander</a></li>
-          <li><a href="#squirtle">Ver a Squirtle</a></li>
+          <li>
+            <a href="#tipo-planta">Ver Tipo Planta (Evoluciones Bulbasaur)</a>
+          </li>
+          <li>
+            <a href="#tipo-fuego">Ver Tipo Fuego (Evoluciones Charmander)</a>
+          </li>
+          <li><a href="#tipo-agua">Ver Tipo Agua (Evoluciones Squirtle)</a></li>
+          <li><a href="#populares">Ver Otros Populares (Pikachu y más)</a></li>
+          <li><a href="#encuesta">Ir a la Encuesta</a></li>
         </ul>
       </nav>
     </header>
@@ -30,114 +33,221 @@
     <hr />
 
     <main>
-      <section id="bulbasaur">
-        <h2>001 - Bulbasaur</h2>
-        <img
-          src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png"
-          alt="Imagen de Bulbasaur"
-          width="200"
-        />
+      <section id="tipo-planta">
+        <h2>--- Tipo Planta ---</h2>
 
-        <p>
-          Este Pokémon nace con una semilla en el lomo. Con el tiempo, la
-          semilla brota, crece y se convierte en una flor.
-        </p>
+        <article>
+          <h3>001 - Bulbasaur</h3>
+          <img src="" alt="Bulbasaur" width="150" />
+          <p>
+            Lleva la semilla de una planta en su espalda desde que nace. La
+            semilla crece lentamente.
+          </p>
+          <ul>
+            <li>Tipo: Planta/Veneno</li>
+          </ul>
+        </article>
 
-        <h3>Datos Técnicos:</h3>
-        <ul>
-          <li><strong>Tipo:</strong> Planta / Veneno</li>
-          <li><strong>Habilidad:</strong> Espesura</li>
-          <li><strong>Debilidad:</strong> Fuego, Hielo, Volador</li>
-        </ul>
+        <article>
+          <h3>002 - Ivysaur</h3>
+          <img src="" alt="Ivysaur" width="150" />
+          <p>
+            Cuando el bulbo de su espalda crece, parece no poder ponerse de pie
+            sobre sus patas traseras.
+          </p>
+          <ul>
+            <li>Tipo: Planta/Veneno</li>
+          </ul>
+        </article>
+
+        <article>
+          <h3>003 - Venusaur</h3>
+          <img src="" alt="Venusaur" width="150" />
+          <p>
+            La planta florece cuando absorbe energía solar, lo cual le obliga a
+            buscar siempre la luz del sol.
+          </p>
+          <ul>
+            <li>Tipo: Planta/Veneno</li>
+          </ul>
+          <br />
+          <a href="#inicio">⬆ Volver arriba</a>
+        </article>
       </section>
 
       <hr />
 
-      <section id="charmander">
-        <h2>004 - Charmander</h2>
-        <img
-          src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png"
-          alt="Imagen de Charmander"
-          width="200"
-        />
+      <section id="tipo-fuego">
+        <h2>--- Tipo Fuego ---</h2>
 
-        <p>
-          La llama que tiene en la punta de la cola arde según sus sentimientos.
-          Llamea levemente cuando está alegre y arde vigorosamente cuando se
-          enfada.
-        </p>
+        <article>
+          <h3>004 - Charmander</h3>
+          <img src="" alt="Charmander" width="150" />
+          <p>
+            Prefiere las cosas calientes. Dicen que cuando llueve le sale vapor
+            de la punta de la cola.
+          </p>
+          <ul>
+            <li>Tipo: Fuego</li>
+          </ul>
+        </article>
 
-        <h3>Datos Técnicos:</h3>
-        <ul>
-          <li><strong>Tipo:</strong> Fuego</li>
-          <li><strong>Habilidad:</strong> Mar Llamas</li>
-          <li><strong>Debilidad:</strong> Agua, Tierra, Roca</li>
-        </ul>
+        <article>
+          <h3>005 - Charmeleon</h3>
+          <img src="" alt="Charmeleon" width="150" />
+          <p>
+            Es de naturaleza bárbara. En la batalla, agita la cola y eleva la
+            temperatura a niveles increíbles.
+          </p>
+          <ul>
+            <li>Tipo: Fuego</li>
+          </ul>
+        </article>
+
+        <article>
+          <h3>006 - Charizard</h3>
+          <img src="" alt="Charizard" width="150" />
+          <p>
+            Escupe fuego tan caliente que funde las rocas. Causa incendios
+            forestales sin querer.
+          </p>
+          <ul>
+            <li>Tipo: Fuego/Volador</li>
+          </ul>
+          <br />
+          <a href="#inicio">⬆ Volver arriba</a>
+        </article>
       </section>
 
       <hr />
 
-      <section id="squirtle">
-        <h2>007 - Squirtle</h2>
-        <img
-          src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png"
-          alt="Imagen de Squirtle"
-          width="200"
-        />
+      <section id="tipo-agua">
+        <h2>--- Tipo Agua ---</h2>
 
-        <p>
-          El caparazón de Squirtle no le sirve de protección únicamente. Su
-          forma redondeada y sus hendiduras reducen su resistencia al agua.
-        </p>
+        <article>
+          <h3>007 - Squirtle</h3>
+          <img src="" alt="Squirtle" width="150" />
+          <p>
+            Cuando se siente amenazado, se retrae dentro de su caparazón y
+            escupe agua con fuerza.
+          </p>
+          <ul>
+            <li>Tipo: Agua</li>
+          </ul>
+        </article>
 
-        <h3>Datos Técnicos:</h3>
-        <ul>
-          <li><strong>Tipo:</strong> Agua</li>
-          <li><strong>Habilidad:</strong> Torrente</li>
-          <li><strong>Debilidad:</strong> Planta, Eléctrico</li>
-        </ul>
+        <article>
+          <h3>008 - Wartortle</h3>
+          <img src="" alt="Wartortle" width="150" />
+          <p>
+            Es muy listo, controla sus orejas y cola peludas para mantener el
+            equilibrio al nadar.
+          </p>
+          <ul>
+            <li>Tipo: Agua</li>
+          </ul>
+        </article>
+
+        <article>
+          <h3>009 - Blastoise</h3>
+          <img src="" alt="Blastoise" width="150" />
+          <p>
+            Los chorros de agua que salen de sus cañones tienen fuerza
+            suficiente para romper el acero.
+          </p>
+          <ul>
+            <li>Tipo: Agua</li>
+          </ul>
+          <br />
+          <a href="#inicio">⬆ Volver arriba</a>
+        </article>
+      </section>
+
+      <hr />
+
+      <section id="populares">
+        <h2>--- Favoritos de los Fans ---</h2>
+
+        <article>
+          <h3>025 - Pikachu</h3>
+          <img src="" alt="Pikachu" width="150" />
+          <p>
+            Cuanto más potente es la energía eléctrica que genera este Pokémon,
+            más suaves y elásticas son sus mejillas.
+          </p>
+          <ul>
+            <li>Tipo: Eléctrico</li>
+          </ul>
+        </article>
+
+        <article>
+          <h3>039 - Jigglypuff</h3>
+          <img src="" alt="Jigglypuff" width="150" />
+          <p>
+            Canta una melodía agradable y misteriosa que duerme a todo aquel que
+            la escucha.
+          </p>
+          <ul>
+            <li>Tipo: Normal/Hada</li>
+          </ul>
+        </article>
+
+        <article>
+          <h3>143 - Snorlax</h3>
+          <img src="" alt="Snorlax" width="150" />
+          <p>
+            Su estómago es tan fuerte que incluso la comida en mal estado no le
+            sienta mal. Solo despierta para comer.
+          </p>
+          <ul>
+            <li>Tipo: Normal</li>
+          </ul>
+          <br />
+          <a href="#inicio">⬆ Volver arriba</a>
+        </article>
       </section>
     </main>
 
     <hr />
 
-    <section>
-      <h2>¿Cuál es tu favorito?</h2>
-      <p>¡Déjame tu opinión para mejorar la Pokédex!</p>
+    <section id="encuesta">
+      <h2>Encuesta Final</h2>
+      <p>Ahora que has visto los 12 Pokémon, ¿cuál eliges?</p>
 
       <form>
-        <label for="nombre">Tu Entrenador:</label>
+        <label for="email">Tu Correo (Opcional):</label>
         <br />
-        <input
-          type="text"
-          id="nombre"
-          name="nombre"
-          placeholder="Ash Ketchum"
-        />
+        <input type="email" id="email" placeholder="nombre@ejemplo.com" />
         <br /><br />
 
-        <label for="pokemon-fav">Elige tu favorito:</label>
+        <label for="seleccion">Tu Pokémon elegido:</label>
         <br />
-        <select id="pokemon-fav" name="pokemon">
-          <option value="bulbasaur">Bulbasaur</option>
-          <option value="charmander">Charmander</option>
-          <option value="squirtle">Squirtle</option>
+        <select id="seleccion">
+          <option value="bulbasaur_linea">
+            Equipo Planta (Bulbasaur y evos)
+          </option>
+          <option value="charmander_linea">
+            Equipo Fuego (Charmander y evos)
+          </option>
+          <option value="squirtle_linea">Equipo Agua (Squirtle y evos)</option>
+          <option value="pikachu">Pikachu</option>
+          <option value="snorlax">Snorlax</option>
         </select>
         <br /><br />
 
-        <input type="submit" value="Enviar Voto" />
+        <label for="comentarios">¿Por qué?:</label>
+        <br />
+        <textarea id="comentarios" rows="4" cols="30"></textarea>
+        <br /><br />
+
+        <button type="submit">Enviar Respuesta</button>
       </form>
     </section>
 
-    <br />
-
     <footer>
-      <p>Proyecto Final de Desarrollo Web.</p>
-      <p>Derechos de imágenes pertenecientes a Nintendo/GameFreak.</p>
-      <p>
-        Para más información visita la
-        <a href="https://www.wikidex.net/" target="_blank">WikiDex Oficial</a>.
-      </p>
+      <hr />
+      <p>2025 Mi Proyecto Web. Imágenes cortesía de PokeAPI.</p>
+      <p><a href="" target="_blank">Ver mi repositorio en GitHub</a></p>
     </footer>
   </body>
 </html>
