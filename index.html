@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Pokédex - Proyecto Final</title>
+    <meta
+      name="description"
+      content="Proyecto básico de HTML mostrando una lista de Pokémon"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Mi Pokédex Web</h1>
+      <p>
+        Bienvenido a mi enciclopedia Pokémon. Aquí encontrarás información sobre
+        los iniciales de Kanto.
+      </p>
+
+      <nav>
+        <h3>Selecciona un Pokémon:</h3>
+        <ul>
+          <li><a href="#bulbasaur">Ver a Bulbasaur</a></li>
+          <li><a href="#charmander">Ver a Charmander</a></li>
+          <li><a href="#squirtle">Ver a Squirtle</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <hr />
+
+    <main>
+      <section id="bulbasaur">
+        <h2>001 - Bulbasaur</h2>
+        <img src="" alt="Imagen de Bulbasaur" width="200" />
+
+        <p>
+          Este Pokémon nace con una semilla en el lomo. Con el tiempo, la
+          semilla brota, crece y se convierte en una flor.
+        </p>
+
+        <h3>Datos Técnicos:</h3>
+        <ul>
+          <li><strong>Tipo:</strong> Planta / Veneno</li>
+          <li><strong>Habilidad:</strong> Espesura</li>
+          <li><strong>Debilidad:</strong> Fuego, Hielo, Volador</li>
+        </ul>
+      </section>
+
+      <hr />
+
+      <section id="charmander">
+        <h2>004 - Charmander</h2>
+        <img src="" alt="Imagen de Charmander" width="200" />
+
+        <p>
+          La llama que tiene en la punta de la cola arde según sus sentimientos.
+          Llamea levemente cuando está alegre y arde vigorosamente cuando se
+          enfada.
+        </p>
+
+        <h3>Datos Técnicos:</h3>
+        <ul>
+          <li><strong>Tipo:</strong> Fuego</li>
+          <li><strong>Habilidad:</strong> Mar Llamas</li>
+          <li><strong>Debilidad:</strong> Agua, Tierra, Roca</li>
+        </ul>
+      </section>
+
+      <hr />
+
+      <section id="squirtle">
+        <h2>007 - Squirtle</h2>
+        <img src="" alt="Imagen de Squirtle" width="200" />
+
+        <p>
+          El caparazón de Squirtle no le sirve de protección únicamente. Su
+          forma redondeada y sus hendiduras reducen su resistencia al agua.
+        </p>
+
+        <h3>Datos Técnicos:</h3>
+        <ul>
+          <li><strong>Tipo:</strong> Agua</li>
+          <li><strong>Habilidad:</strong> Torrente</li>
+          <li><strong>Debilidad:</strong> Planta, Eléctrico</li>
+        </ul>
+      </section>
+    </main>
+
+    <hr />
+
+    <section>
+      <h2>¿Cuál es tu favorito?</h2>
+      <p>¡Déjame tu opinión para mejorar la Pokédex!</p>
+
+      <form>
+        <label for="nombre">Tu Entrenador:</label>
+        <br />
+        <input
+          type="text"
+          id="nombre"
+          name="nombre"
+          placeholder="Ash Ketchum"
+        />
+        <br /><br />
+
+        <label for="pokemon-fav">Elige tu favorito:</label>
+        <br />
+        <select id="pokemon-fav" name="pokemon">
+          <option value="bulbasaur">Bulbasaur</option>
+          <option value="charmander">Charmander</option>
+          <option value="squirtle">Squirtle</option>
+        </select>
+        <br /><br />
+
+        <input type="submit" value="Enviar Voto" />
+      </form>
+    </section>
+
+    <br />
+
+    <footer>
+      <p>Proyecto Final de Desarrollo Web.</p>
+      <p>Derechos de imágenes pertenecientes a Nintendo/GameFreak.</p>
+      <p>
+        Para más información visita la
+        <a href="https://www.wikidex.net/" target="_blank">WikiDex Oficial</a>.
+      </p>
+    </footer>
+  </body>
+</html>
